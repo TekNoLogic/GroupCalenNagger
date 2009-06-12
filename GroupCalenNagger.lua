@@ -36,6 +36,3 @@ end
 
 SLASH_ADDONTEMPLATE1 = "/gcnag"
 SlashCmdList.ADDONTEMPLATE = function(msg) if msg == "send" then nag() elseif msg == "all" then nag(true) else dump() end end
-
-
-TEK = {[4] = GC4users, [5] = GC5users}
