@@ -26,9 +26,9 @@ end
 local function nag(extranaggy)
 	for user in pairs(GC4users) do
 		if not GC5users[user] then
-			SendChatMessage("[GroupCalendar5] You are running an incompatible version of GroupCalendar.  Please upgrade to GroupCalendar5 at curse.com", "WHISPER", GetDefaultLanguage("player"), "Beardyhead")
+			SendChatMessage("[GroupCalendar5] You are running an incompatible version of GroupCalendar.  Please upgrade to GroupCalendar5 at curse.com", "WHISPER", GetDefaultLanguage("player"), user)
 		elseif extranaggy then
-			SendChatMessage("[GroupCalendar5] You are running both GroupCalendar 4.5 and 5.0.  Please you should disable 4.5 as it is not compatible with 5.0", "WHISPER", GetDefaultLanguage("player"), "Beardyhead")
+			SendChatMessage("[GroupCalendar5] You are running both GroupCalendar 4.5 and 5.0.  Please you should disable 4.5 as it is not compatible with 5.0", "WHISPER", GetDefaultLanguage("player"), user)
 		end
 	end
 end
