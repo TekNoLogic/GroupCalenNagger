@@ -1,0 +1,11 @@
+GroupCalenNagger was born from a simple problem: my guild began "requiring" GroupCalendar (god knows WHY...), but the leadership were not updating their version to GC5.  So this addon was born to bug the piss out of them.
+
+GroupCalenNagger does two simple things: monitor addon chat to notify you when a GC4 user is seen, and let you bug them to upgrade.  Use the command @/gcnag@ to see who will be bothered, and @/gcnag send@ or @/gcnag all@ to send tells to these users.  If all goes well, the user will think it's your own installation of GroupCalendar5 that is bugging them, and they'll go upgrade.
+
+Obviously, I do not condone spamming with this addon.  One reminder per raid night should be sufficient.  Don't be worse than your out-of-date raid leadership!
+
+h2. Links
+
+<b>Visit "my site":http://tekkub.net/ for more great addons<br>
+Please report all bugs and feature requests to my "Github tracker":http://github.com/tekkub/GroupCalenNagger/issues<br>
+Please direct all feedback and questions to my "Google Groups":http://groups-beta.google.com/group/tekkub-wow mailinglist.</b>

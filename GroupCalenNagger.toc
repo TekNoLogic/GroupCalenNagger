@@ -1,0 +1,15 @@
+## Interface: 30100
+
+## Title: GroupCalenNagger
+## Notes: Nag those GC4 users to upgrade their shit!
+## Author: Tekkub Stoutwrithe
+## Version: Alpha
+## X-Website: http://www.tekkub.net/
+## X-Email: tekkub-wow@googlegroups.com
+## X-Category: Misc
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+## X-LoadOn-Slash: /gcnag
+
+GroupCalenNagger.lua
