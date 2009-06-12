@@ -14,7 +14,7 @@ local function dump()
 		table.insert(GC5users[user] and tmp1 or tmp2, user)
 	end
 	if (#tmp1 + #tmp2) == 0 then
-		Print("No one appears to be using an outdate version of GroupCalendar.  You may need to wait a short time for users to expose themselves on the hidden addon channel.")
+		Print("No one appears to be using an outdated version of GroupCalendar.  You may need to wait a short time for users to expose themselves on the hidden addon channel.")
 	else
 		if #tmp2 > 0 then Print("Users with 4.5:", unpack(tmp2)) end
 		if #tmp1 > 0 then Print("Users with 4.5 and 5.0:", unpack(tmp1)) end
